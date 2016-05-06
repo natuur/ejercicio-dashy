@@ -1,0 +1,167 @@
+
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+
+#container{
+	width: 100%;
+}
+
+.header{
+	position: fixed;
+	width: 100%;
+	background-color:#154360;
+	padding: 20px;
+	top:0;
+	left: 0;
+	z-index: 5;
+}
+
+#sidebar{
+	position: fixed;
+	left: 0;
+	top: 70px;
+	height:100%; 
+	width:200px;
+	z-index: 5;
+ 	background-color:#154360; 
+}
+
+.sidebar-toogle-box{
+	display: inline-block;
+	z-index: 10;
+}
+
+.black-bg{
+	background-color:#154360;
+}
+
+.sidebar-toogle-box .tooltips{
+	color:whitesmoke;
+	font-size: 28px;
+}
+
+.logo{
+	color:whitesmoke;
+}
+
+.logo:hover{
+	color:whitesmoke;
+}
+
+.top-menu{ 
+	display: inline;
+	background-color:#8E44AD;
+	border-radius: 5%;
+}
+
+#main-content{
+	position: relative;
+	top: 100px;
+}
+
+.sub-menu{
+	list-style: none;
+}
+
+.a-blanco{
+	color:white;
+}
+
+.text-center{
+	color:white;
+}
+
+.wrapper{
+	background-color: #F2F3F4  ;
+}
+
+.iconos{
+ 	font-size: 40px;
+ 	color:gray;
+}
+.showback{
+	background-color: white;
+	color:gray;
+	padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+
+.col-md-3{
+	background-color: white;
+}
+
+.morado{
+	background-color:#8E44AD;
+	color :white;
+	text-align: center;
+	padding-top:2% ;
+	padding-bottom:2% ;
+	margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.bg-theme{
+	background: red;
+}
+
+.box0 p{
+	visibility: hidden;
+}
+
+.box0:hover p{
+	visibility: visible;
+	color:#DC7633;
+}
+
+.box0:hover{
+	text-align: center;
+	font-size: 12px;
+	color:white;
+	visibility: visible;
+	border-bottom: 1px solid #c0c0c0;
+	border-right: 1px solid #c0c0c0;
+}
+
+.box0:hover .box1{
+	border-bottom: none;
+}
+
+.box1{
+	color:gray;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 10px;
+	border-bottom:1px solid gray;
+	max-width: 100%;
+}
+
+.col-lg-5{
+	color:#979A9A;
+}
+
+.desc{
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.hamburguesa{
+	color:white;
+	float: left;
+}
+
+.hidden-xs{
+	color:white;
+	padding-left: 3%;
+}
